@@ -1,5 +1,4 @@
 import os
-import shutil
 
 def createFolder(folder):
     if not os.path.exists(folder):
@@ -14,19 +13,14 @@ createFolder("audios")
 
 dir_list = os.listdir()
 
-print(f"Before : {dir_list}")
-
 image_ext = [".png", '.jpg', '.jpeg']
-docs_ext = [".docs", '.bat', '.bin', '.csv', 'doc', 'docx', 'html', 'htm', 'iso', 'pdf', 'ppt', 'psd', 'xls', 'xlsx']
-videos_ext = ["avi", 'gif', 'mov', 'mp4', 'mpeg']
-audio_ext = ["mp3", 'wav', 'aa', 'aac', 'm4a', 'm4p']
+docs_ext = [".docs", '.bat', '.bin', '.csv', '.doc', '.docx', '.html', '.htm', '.iso', '.pdf', '.ppt', '.psd', '.xls', '.xlsx']
+videos_ext = [".avi", '.gif', '.mov', '.mp4', '.mpeg', '.mkv']
+audio_ext = [".mp3", '.wav', '.aa', '.aac', '.m4a', '.m4p']
 
-
-print(f"After : {dir_list}")
 dir_list.remove("main.py")
-dir_list.remove(".gitignore")
-for file in dir_list:
 
+for file in dir_list:
     if os.path.splitext(file)[-1] in image_ext:
         os.replace(file, f"images/{file}")
     elif os.path.splitext(file)[-1] in docs_ext:
