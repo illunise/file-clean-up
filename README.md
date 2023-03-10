@@ -3,8 +3,8 @@
 
 This project is a Python-based tool that helps you organize and clean up your cluttered files in an intuitive way. With its flexible file handling and customizable settings, you can easily categorize your files based on type and move them to appropriate folders.
 
-## Demo
-[![Video]](https://www.youtube.com/watch?v=VIDEO_ID)
+## Working
+[![Video Demo](./video/demo.mp4)](./video/demo.mp4)
 
 ## Installation
 To use this tool, you need to have Python installed on your machine. You can download and install Python from the official website. Once you have installed Python, you can clone or download the project files from the GitHub repository.
