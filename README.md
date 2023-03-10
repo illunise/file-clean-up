@@ -24,6 +24,6 @@ Shoutout to the developers of the `os` Python modules for making file handling a
 
 ## License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](license) file for details.
 
 © 2023 Manish Kushwaha
